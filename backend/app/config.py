@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     PROJECT_TAGLINE: str = "One Platform from Approval Discovery to Document Readiness to Compliance"
     API_V1_STR: str = "/api"
     DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./compliance_platform.db")
-    JWT_SECRET: str = os.getenv("JWT_SECRET", "supersecretcomplianceplatformjwtkey_change_in_production_2026")
+    JWT_SECRET: str = os.getenv("JWT_SECRET", "dev-only-change-this-secret")
     JWT_ALGORITHM: str = os.getenv("JWT_ALGORITHM", "HS256")
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 1 day
     STORAGE_PATH: str = os.getenv("STORAGE_PATH", "./storage")
