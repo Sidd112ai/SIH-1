@@ -1,7 +1,7 @@
 import os
 import io
 from datetime import datetime
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 import pypdf
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
