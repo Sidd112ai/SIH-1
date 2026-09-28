@@ -44,6 +44,7 @@ services:
     envVars:
       - key: VITE_API_URL
         fromService:
+          type: web
           name: compliance-backend
           envVarKey: RENDER_EXTERNAL_URL
 
