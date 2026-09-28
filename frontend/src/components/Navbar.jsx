@@ -82,7 +82,7 @@ export default function Navbar({ onOpenAI, onToggleMobileSidebar }) {
     if (path === '/admin/knowledge-base') return 'Regulatory Knowledge Base';
     if (path === '/admin/analytics') return 'Bottleneck Analytics';
     if (path === '/admin/audit') return 'Audit Trail';
-    return 'MahaClearance Platform';
+    return 'SUVIDHA';
   };
 
   return (
@@ -103,7 +103,7 @@ export default function Navbar({ onOpenAI, onToggleMobileSidebar }) {
               {getPageTitle()}
             </h2>
             <div className="hidden sm:flex items-center gap-1.5 text-[11px] text-slate-400">
-              <span>MahaClearance</span>
+              <span>SUVIDHA</span>
               <span>•</span>
               <span className="capitalize">{role.toLowerCase()} Portal</span>
             </div>

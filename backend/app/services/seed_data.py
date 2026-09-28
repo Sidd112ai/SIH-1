@@ -82,9 +82,9 @@ def seed_database(db: Session):
     db.refresh(business)
 
     # 3. Departments
-    dept_fssai = Department(code="FSSAI", name="Food Safety and Standards Authority of India", contact_email="clearance@fssai.gov.in.demo")
+    dept_fssai = Department(code="FSSAI", name="Food Safety and Standards Authority of India", contact_email="Suvidha@fssai.gov.in.demo")
     dept_dish = Department(code="DISH", name="Directorate of Industrial Safety and Health (DISH)", contact_email="factories@dish.maharashtra.gov.in.demo")
-    dept_mpcb = Department(code="MPCB", name="Maharashtra Pollution Control Board (MPCB)", contact_email="envclearance@mpcb.gov.in.demo")
+    dept_mpcb = Department(code="MPCB", name="Maharashtra Pollution Control Board (MPCB)", contact_email="Suvidha@mpcb.gov.in.demo")
     dept_fire = Department(code="FIRE", name="State Fire & Emergency Services", contact_email="firenoc@mahafire.gov.in.demo")
     dept_midc = Department(code="MIDC", name="Maharashtra Industrial Development Corporation", contact_email="support@midcindia.org.demo")
 

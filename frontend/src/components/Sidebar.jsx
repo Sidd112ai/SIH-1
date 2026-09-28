@@ -172,7 +172,7 @@ export default function Sidebar({
             </div>
             {!isCollapsed && (
               <div className="truncate">
-                <h1 className="font-bold text-sm text-white leading-tight">MahaClearance</h1>
+                <h1 className="font-bold text-sm text-white leading-tight">SUVIDHA</h1>
                 <p className="text-[10px] text-sky-400 font-medium tracking-wide uppercase">State Gateway</p>
               </div>
             )}

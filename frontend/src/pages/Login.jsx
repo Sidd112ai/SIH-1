@@ -42,7 +42,7 @@ export default function Login() {
         <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sky-500 to-indigo-600 mx-auto flex items-center justify-center text-white shadow-lg shadow-sky-500/20 mb-3">
           <ShieldCheck className="w-7 h-7" />
         </div>
-        <h2 className="text-2xl font-extrabold text-white tracking-tight">MahaClearance Gateway</h2>
+        <h2 className="text-2xl font-extrabold text-white tracking-tight">SUVIDHA</h2>
         <p className="mt-1 text-xs text-slate-400 font-medium">AI-Driven Industrial Approval & Compliance Platform</p>
       </div>
 

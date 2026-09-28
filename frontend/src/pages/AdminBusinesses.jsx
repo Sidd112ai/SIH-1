@@ -43,7 +43,7 @@ export default function AdminBusinesses() {
     <div className="max-w-6xl mx-auto space-y-6">
       <PageHeader
         title="Industrial Enterprises Directory"
-        subtitle="Catalog of manufacturing, food processing, engineering, and chemical units registered on MahaClearance."
+        subtitle="Catalog of manufacturing, food processing, engineering, and chemical units registered on SUVIDHA."
         breadcrumbs={[
           { label: 'Admin Portal', href: '/admin' },
           { label: 'Businesses' },

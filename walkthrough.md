@@ -1,6 +1,6 @@
 # Walkthrough — UI/UX, Responsiveness & Stability Enhancements
 
-The **AI-Driven Industrial Approval & Compliance Management Platform (MahaClearance Gateway)** has been comprehensively upgraded with an enterprise government SaaS design system, responsive navigation, dedicated sub-pages, global search, and smooth workflows for an SIH hackathon demonstration.
+The **AI-Driven Industrial Approval & Compliance Management Platform (SUVIDHA Gateway)** has been comprehensively upgraded with an enterprise government SaaS design system, responsive navigation, dedicated sub-pages, global search, and smooth workflows for an SIH hackathon demonstration.
 
 ---
 
