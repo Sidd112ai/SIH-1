@@ -36,7 +36,7 @@ services:
     name: compliance-frontend
     runtime: static
     buildCommand: cd frontend && npm install && npm run build
-     staticPublishPath: frontend/dist
+    staticPublishPath: frontend/dist
     routes:
       - type: rewrite
         source: /*
